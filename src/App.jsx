@@ -99,6 +99,52 @@ export default function App() {
               </button>
             )
           })}
+
+          {/* ── Author credit ── */}
+          <div style={{
+            marginTop: 'auto',
+            padding: '12px 10px 8px',
+            borderTop: '1px solid rgba(255,255,255,0.05)',
+          }}>
+            <div style={{
+              fontSize: 9,
+              color: 'rgba(255,255,255,0.2)',
+              textTransform: 'uppercase',
+              letterSpacing: '0.08em',
+              marginBottom: 6,
+            }}>
+              Built by
+            </div>
+            <a
+              href="https://github.com/monajim"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ display: 'flex', alignItems: 'center', gap: 8, textDecoration: 'none' }}
+            >
+              <div style={{
+                width: 26,
+                height: 26,
+                borderRadius: '50%',
+                background: 'rgba(167,139,250,0.15)',
+                border: '1px solid rgba(167,139,250,0.3)',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                fontSize: 12,
+                color: '#a78bfa',
+                fontWeight: 600,
+                fontFamily: '"JetBrains Mono", monospace',
+                flexShrink: 0,
+              }}>
+                A
+              </div>
+              <div>
+                <div style={{ fontSize: 12, color: 'rgba(255,255,255,0.55)', fontWeight: 500 }}>monajim</div>
+                <div style={{ fontSize: 9, color: 'rgba(255,255,255,0.2)', marginTop: 1 }}>github.com</div>
+              </div>
+            </a>
+          </div>
+
         </nav>
 
         {/* ── Lesson area ── */}
